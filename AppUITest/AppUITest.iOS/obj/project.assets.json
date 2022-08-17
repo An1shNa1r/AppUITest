@@ -171,12 +171,29 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.UITest/3.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/Xamarin.UITest.props": {}
+        }
+      },
       "AppUITest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.UITest": "3.2.8"
         },
         "compile": {
           "bin/placeholder/AppUITest.dll": {}
@@ -356,12 +373,29 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.UITest/3.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/Xamarin.UITest.props": {}
+        }
+      },
       "AppUITest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.UITest": "3.2.8"
         },
         "compile": {
           "bin/placeholder/AppUITest.dll": {}
@@ -541,12 +575,29 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.UITest/3.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/Xamarin.UITest.props": {}
+        }
+      },
       "AppUITest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.UITest": "3.2.8"
         },
         "compile": {
           "bin/placeholder/AppUITest.dll": {}
@@ -726,12 +777,29 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.UITest/3.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/Xamarin.UITest.props": {}
+        }
+      },
       "AppUITest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.UITest": "3.2.8"
         },
         "compile": {
           "bin/placeholder/AppUITest.dll": {}
@@ -1048,6 +1116,26 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.UITest/3.2.8": {
+      "sha512": "5jBUSX3JicJC906l3k5XvdU1wxjPAG+f6BF8JAqKT9BhwCeLxBVEZEP83a5VgNu2GQWCvgxUW3LCzPz8xI5kPg==",
+      "type": "package",
+      "path": "xamarin.uitest/3.2.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "ThirdPartyNotices.txt",
+        "build/Xamarin.UITest.props",
+        "lib/net45/Xamarin.UITest.dll",
+        "lib/net45/Xamarin.UITest.xml",
+        "lib/portable-net45+win8+wp8/Xamarin.UITest.dll",
+        "lib/portable-net45+win8+wp8/Xamarin.UITest.xml",
+        "tools/test-cloud.exe",
+        "xamarin.uitest.3.2.8.nupkg.sha512",
+        "xamarin.uitest.nuspec"
+      ]
+    },
     "AppUITest/1.0.0": {
       "type": "project",
       "path": "../AppUITest/AppUITest.csproj",
@@ -1058,7 +1146,8 @@
     "Xamarin.iOS,Version=v1.0": [
       "AppUITest >= 1.0.0",
       "Xamarin.Essentials >= 1.7.0",
-      "Xamarin.Forms >= 5.0.0.2196"
+      "Xamarin.Forms >= 5.0.0.2196",
+      "Xamarin.UITest >= 3.2.8"
     ]
   },
   "packageFolders": {
@@ -1069,11 +1158,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LandmarkAndroid\\AppUITest\\AppUITest\\AppUITest.iOS\\AppUITest.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\AnishNair\\Source\\Repos\\An1shNa1r\\AppUITest\\AppUITest\\AppUITest.iOS\\AppUITest.iOS.csproj",
       "projectName": "AppUITest.iOS",
-      "projectPath": "D:\\LandmarkAndroid\\AppUITest\\AppUITest\\AppUITest.iOS\\AppUITest.iOS.csproj",
+      "projectPath": "C:\\Users\\AnishNair\\Source\\Repos\\An1shNa1r\\AppUITest\\AppUITest\\AppUITest.iOS\\AppUITest.iOS.csproj",
       "packagesPath": "C:\\Users\\AnishNair\\.nuget\\packages\\",
-      "outputPath": "D:\\LandmarkAndroid\\AppUITest\\AppUITest\\AppUITest.iOS\\obj\\",
+      "outputPath": "C:\\Users\\AnishNair\\Source\\Repos\\An1shNa1r\\AppUITest\\AppUITest\\AppUITest.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1097,8 +1186,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\LandmarkAndroid\\AppUITest\\AppUITest\\AppUITest\\AppUITest.csproj": {
-              "projectPath": "D:\\LandmarkAndroid\\AppUITest\\AppUITest\\AppUITest\\AppUITest.csproj"
+            "C:\\Users\\AnishNair\\Source\\Repos\\An1shNa1r\\AppUITest\\AppUITest\\AppUITest\\AppUITest.csproj": {
+              "projectPath": "C:\\Users\\AnishNair\\Source\\Repos\\An1shNa1r\\AppUITest\\AppUITest\\AppUITest\\AppUITest.csproj"
             }
           }
         }
@@ -1114,6 +1203,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2196, )"
+          },
+          "Xamarin.UITest": {
+            "target": "Package",
+            "version": "[3.2.8, )"
           }
         }
       }

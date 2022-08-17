@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cWIgDU9bWN9FLEiF1y+r+GUAXR+vq5AuiyB2FKzNCInj3fpwrYmXNESYK57BtUiNWFT1gJFrudqAwmE/PVNceA==",
+  "dgSpecHash": "Oczy6ixRRSu5SIleoJHQD199yMAHw3BXs2o+Z2EsTJ6uJ8u7e00eN0Ogefxa1Zji0uJO4n8UXUZ4wZCp8pVpog==",
   "success": true,
-  "projectFilePath": "D:\\LandmarkAndroid\\AppUITest\\AppUITest\\AppUITest.Android\\AppUITest.Android.csproj",
+  "projectFilePath": "C:\\Users\\AnishNair\\Source\\Repos\\An1shNa1r\\AppUITest\\AppUITest\\AppUITest.Android\\AppUITest.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AnishNair\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\AnishNair\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
@@ -61,7 +61,8 @@
     "C:\\Users\\AnishNair\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\AnishNair\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
     "C:\\Users\\AnishNair\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
-    "C:\\Users\\AnishNair\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
+    "C:\\Users\\AnishNair\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\AnishNair\\.nuget\\packages\\xamarin.uitest\\3.2.8\\xamarin.uitest.3.2.8.nupkg.sha512"
   ],
   "logs": []
 }

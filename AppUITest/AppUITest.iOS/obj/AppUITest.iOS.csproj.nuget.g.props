@@ -15,6 +15,10 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft\Xamarin\NuGet\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xamarin.uitest\3.2.8\build\Xamarin.UITest.props" Condition="Exists('$(NuGetPackageRoot)xamarin.uitest\3.2.8\build\Xamarin.UITest.props')" />
     <Import Project="$(NuGetPackageRoot)xamarin.forms\5.0.0.2196\buildTransitive\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\5.0.0.2196\buildTransitive\Xamarin.Forms.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgXamarin_UITest Condition=" '$(PkgXamarin_UITest)' == '' ">C:\Users\AnishNair\.nuget\packages\xamarin.uitest\3.2.8</PkgXamarin_UITest>
+  </PropertyGroup>
 </Project>
