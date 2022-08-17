@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "8lbgDJvZhuXEJHIrR4/zn6R4EdTfix01+uDYLN5x2Fz0zH4D1MAodXhheEJPK0YkyzW5l7KA/sigVyad4t6fQg==",
+  "success": true,
+  "projectFilePath": "D:\\LandmarkAndroid\\AppUITest\\AppUITest\\AppUITest\\AppUITest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AnishNair\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\AnishNair\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\AnishNair\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\AnishNair\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\AnishNair\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
